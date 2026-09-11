@@ -1923,7 +1923,7 @@ export default function App() {
             <div className="puppy-glow" aria-hidden="true" />
 
             <img
-              src="/bubblePuppies.png"
+              src={`${process.env.PUBLIC_URL}/bubblePuppies.png`}
               alt="Two pastel Maltese puppy characters made by Big Bubby"
             />
 
@@ -1936,7 +1936,7 @@ export default function App() {
         <section className="bubby-note">
           <img
             className="note-puppies"
-            src="/heartPuppies.png"
+            src={`${process.env.PUBLIC_URL}/heartPuppies.png`}
             alt="Big Bubby and little bubby sharing hearts"
           />
           <div className="note-leaves" aria-hidden="true">
@@ -2167,7 +2167,7 @@ export default function App() {
 
             <img
               className="empty-puppies"
-              src="/parkviewPuppies.png"
+              src={`${process.env.PUBLIC_URL}/parkviewPuppies.png`}
               alt="little bubby and Big Bubby sitting together in the park"
             />
 
@@ -2188,7 +2188,7 @@ export default function App() {
       <footer className="archive-footer">
         <img
           className="footer-puppies"
-          src="/handPuppies.png"
+          src={`${process.env.PUBLIC_URL}/handPuppies.png`}
           alt="little bubby and big Bubby holding hands"
         />
 
